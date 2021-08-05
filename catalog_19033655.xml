@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE Music_Store SYSTEM "catalog_19033655.dtd">
+<?xml-stylesheet type="text/css" href="catalog_19033655.css"?>
+
+<Music_Store xmlns:xsl="http://www.w3.org/2001/XMLSchema-instance" xsl:noNamespaceSchemaLocation="catalog_19033655.xsd">
+
+    <Store>
+        <logo></logo>
+        <Store_Name>Vibe Sounds</Store_Name>
+        <address>Bouddha, Kathmandu 44600</address>
+        <phone>01-4567332</phone>
+        <email>vibesounds@gmail.com</email>
+        <website>www.vibesounds.com.np</website>
+    </Store>
+    
+    <Music_List>
+        <song id="S01">
+            <coverImg img="1"></coverImg>
+            <song_info>
+                <name>Coming back to life</name>
+                <genre>Genre: Rock</genre>
+                <singer>Singer: Pink Floyd</singer>
+                <producer>Producer Name(s): Robert Alan Ezrin</producer>
+                <writer>Writer(s): David Jon Gilmour</writer>
+                <release releaseYear="AD">Release Year: 1994</release>
+                <duration>Duration: 6 minutes 19 seconds</duration>
+            </song_info>
+        </song>
+        
+        <song id="S02">
+            <coverImg img="2"></coverImg>
+            <song_info>
+                <name>November Rain</name>
+                <genre>Genre: Rock</genre>
+                <singer>Singer: Guns N' Roses</singer>
+                <producer>Producer Name(s): Mike Clink</producer>
+                <writer>Writer(s): Axl Rose</writer>
+                <release releaseYear="AD">Release Year: 1991</release>
+                <duration>Duration: 8 minutes 57 seconds</duration>
+            </song_info>
+        </song>
+        
+        <song id="S03">
+            <coverImg img="3"></coverImg>
+            <song_info>
+                <name>Masters of War</name>
+                <genre>Genre: Folk Music</genre>
+                <singer>Singer: Bob Dylan</singer>
+                <producer>Producer Name(s): Jean Ritchie</producer>
+                <writer>Writer(s): Bob Dylan</writer>
+                <release releaseYear="AD">Release Year: 1963</release>
+                <duration>Duration: 4 minutes 34 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S04">
+            <coverImg img="4"></coverImg>
+            <song_info>
+                <name>Have you ever seen the rain</name>
+                <genre>Genre: Jazz</genre>
+                <singer>Singer: Karen Souza</singer>
+                <producer>Producer Name(s): John Fogerty</producer>
+                <writer>Writer(s): John Fogerty</writer>
+                <release releaseYear="AD">Release Year: 2011</release>
+                <duration>Duration: 4 minutes 10 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S05">
+            <coverImg img="5"></coverImg>
+            <song_info>
+                <name>Watermelon Sugar</name>
+                <genre>Genre: Pop Music</genre>
+                <singer>Singer: Harry Styles</singer>
+                <producer>Producer Name(s): Tyler Johnson &amp; Kid Harpoon</producer>
+                <writer>Writer(s): Harry Styles, Mitch Rowland, Tyler Johnson &amp; Kid Harpoon</writer>
+                <release releaseYear="AD">Release Year: 2019</release>
+                <duration>DUration: 2 minutes 53 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S06">
+            <coverImg img="6"></coverImg>
+            <song_info>
+                <name>The nights</name>
+                <genre>Genre: Pop Music</genre>
+                <singer>Singer: Avicii</singer>
+                <producer>Producer Name(s): Arash Pournouri(Avicii)</producer>
+                <writer>Writer(s): Tim Bergling, Nicholas Furlong, Gabriel Benjamin, Jordan Suecof &amp; John Feldmann</writer>
+                <release releaseYear="AD">Release Year: 2014</release>
+                <duration>Duration: 2 minutes 56 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S07">
+            <coverImg img="7"></coverImg>
+            <song_info>
+                <name>Let her go</name>
+                <genre>Genre: Pop Music</genre>
+                <singer>Singer: Passanger</singer>
+                <producer>Producer Name(s): Mike Rosenberg</producer>
+                <writer>Writer(s): Mike Rosenberg &amp; Chris Vallejo</writer>
+                <release releaseYear="AD">Release Year: 2012</release>
+                <duration>DUration: 4 minutes 12 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S08">
+            <coverImg img="8"></coverImg>
+            <song_info>
+                <name>Gurasai Fulyo Banaima</name>
+                <genre>Genre: Folk Music</genre>
+                <singer>Singer: 1974 AD</singer>
+                <producer>Producer Name(s): Rabin Deshar</producer>
+                <writer>Writer(s): 1974 AD</writer>
+                <release releaseYear="AD">Release Year: 2008</release>
+                <duration>Durtaion: 5 minutes 16 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S09">
+            <coverImg img="9"></coverImg>
+            <song_info>
+                <name>Set me free</name>
+                <genre>Genre: Dubstep</genre>
+                <singer>Singer: Liz</singer>
+                <producer>Producer Name(s): Diplo</producer>
+                <writer>Writer(s): Jim Harry, Thomas Pentz, Timothy Price &amp; J C Chasez</writer>
+                <release releaseYear="AD">Release Year: 2015</release>
+                <duration>Duration: 3 minutes 30 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S10">
+            <coverImg img="10"></coverImg>
+            <song_info>
+                <name>Vortex</name>
+                <genre>Genre: Dubstep</genre>
+                <singer>Singer: N/A</singer>
+                <producer>Producer Name(s): Panda Eyes</producer>
+                <writer>Writer(s):N/A</writer>
+                <release releaseYear="AD">Release Year: 2015</release>
+                <duration>Duration: 3 minutes 53 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S11">
+            <coverImg img="11"></coverImg>
+            <song_info>
+                <name>Always on my mind</name>
+                <genre>Genre: Country Music</genre>
+                <singer>Singer: Williw Nelson</singer>
+                <producer>Producer Name(s): Felton Jarvis</producer>
+                <writer>Writer(s): Wayne Carson, Mark James &amp; Johnny Christopher</writer>
+                <release releaseYear="AD">Release Year: 1982</release>
+                <duration>Duration: 3 minutes 37 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S12">
+            <coverImg img="12"></coverImg>
+            <song_info>
+                <name>Remember When</name>
+                <genre>Genre: Country Music</genre>
+                <singer>Singer: Alan Jackson</singer>
+                <producer>Producer Name(s): Keith Stegall</producer>
+                <writer>Writer(s):lan Jackson</writer>
+                <release releaseYear="AD">Release Year: 2003</release>
+                <duration>Duration: 4 minutes 30 seconds</duration>
+            </song_info>
+        </song>
+        <song id="S13">
+            <coverImg img="13"></coverImg>
+            <song_info>
+                <name>Strawberry Wine</name>
+                <genre>Genre: Country Music</genre>
+                <singer>Singer: Deaba Carter</singer>
+                <producer>Producer Name(s): Chris Farren</producer>
+                <writer>Writer(s): Matraca Berg &amp; Gary Harrison</writer>
+                <release releaseYear="AD">Release Year: 1996</release>
+                <duration>Duration: 4 minutes 51 seconds</duration>
+            </song_info>
+        </song>
+        
+        <song id="S14">
+            <coverImg img="14"></coverImg>
+            <song_info>
+                <name>Lose Yourself</name>
+                <genre>Genre: Hiphop</genre>
+                <singer>Singer: Eminem</singer>
+                <producer>Producer Name(s): Eminem, Jeff Bass &amp; Luis Resto</producer>
+                <writer>Writer(s): Marshall Mathers, Jeff Bass &amp; Luis Resto</writer>
+                <release releaseYear="AD">Release Year: 2002</release>
+                <duration>Duration: 5 minutes 20 seconds</duration>
+            </song_info>
+        </song>
+        
+        
+        <song id="S15">
+            <coverImg img="15"></coverImg>
+            <song_info>
+                <name>Alright</name>
+                <genre>Genre: Hiphop</genre>
+                <singer>Singer: Kendrick Lamar</singer>
+                <producer>Producer Name(s): Pharrell Williams &amp; Sounwave</producer>
+                <writer>Writer(s): Kendrick Duckworth, Pharrell Williams &amp; Mark Spears</writer>
+                <release releaseYear="AD">Release Year: 2015</release>
+                <duration>Duration: 3 minutes 39 seconds</duration>
+            </song_info>
+        </song>
+        
+    </Music_List>
+</Music_Store>

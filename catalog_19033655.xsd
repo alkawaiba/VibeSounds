@@ -1,0 +1,85 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="Music_Store">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Store"/>
+                <xs:element ref="Music_List"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+  
+  <xs:element name="Store">
+      <xs:complexType>
+          <xs:sequence>
+              <xs:element ref="logo"/>
+              <xs:element ref="Store_Name"/>
+              <xs:element ref="address"/>
+              <xs:element ref="phone"/>
+              <xs:element ref="email"/>
+              <xs:element ref="website"/>
+          </xs:sequence>
+      </xs:complexType>
+  </xs:element>  
+  
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="genre" type="xs:string"/>
+  <xs:element name="singer" type="xs:string"/>
+  <xs:element name="producer" type="xs:string"/>
+  <xs:element name="writer" type="xs:string"/>
+  <xs:element name="release">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="releaseYear" type="xs:string" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="duration" type="xs:string"/>
+  <xs:element name="coverImg">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="img" type="xs:string" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="song_info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="genre"/>
+        <xs:element ref="singer"/>
+        <xs:element ref="producer"/>
+        <xs:element ref="writer"/>
+        <xs:element ref="release"/>
+        <xs:element ref="duration"/>
+      </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+  <xs:element name="song">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="coverImg"/>
+        <xs:element ref="song_info"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="logo" type="xs:string"/>
+  <xs:element name="Store_Name" type="xs:string"/>
+  <xs:element name="address" type="xs:string"/>
+  <xs:element name="phone" type="xs:string"/>
+  <xs:element name="email" type="xs:string"/>
+  <xs:element name="website" type="xs:anyURI"/>
+  <xs:element name="Music_List">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" ref="song"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

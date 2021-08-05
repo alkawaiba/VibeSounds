@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+Music_Store { 
+     color: black; 
+     background-color: lightblue;
+}
+
+logo {
+    background-image: url('images/logo.png');
+    position: absolute;
+    height: 13vw;
+    width: 16vw;
+    margin-left: 40px;
+}
+
+Store_Name{
+    display: block;
+    font-size: 130px;
+    font-weight: bolder;
+    font-family: inherit;
+    text-align: center;
+    height: 140px;
+    color: #FFE4E1;
+    background-color: rgb(60, 78, 114);
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+address, phone, email {
+    display: block;
+    text-align: right;
+    color: lightgray;
+    background-color: rgb(60, 78, 114);
+    padding-right: 30px;
+}
+
+email {
+    padding-bottom: 10px;
+}
+
+website{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: lightgray;
+    background-color: rgb(60, 78, 114);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+coverImg[img="1"] {
+    background-image: url('images/1.jpeg'); 
+    position: absolute;
+    height: 187px;
+    width: 230px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="2"] {
+    background-image: url('images/2.jpeg'); 
+    position: absolute;
+    height: 140px;
+    width: 207px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="3"] {
+    background-image: url('images/3.jpeg'); 
+    position: absolute;
+    height: 160px;
+    width: 230px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="4"] {
+    background-image: url('images/4.jpeg'); 
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="5"] {
+    background-image: url('images/5.jpeg'); 
+    position: absolute;
+    height: 208px;
+    width: 270px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="6"] {
+    background-image: url('images/6.jpeg'); 
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="7"] {
+    background-image: url('images/7.jpeg'); 
+    position: absolute;
+    height: 165px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="8"] {
+    background-image: url('images/8.jpeg'); 
+    position: absolute;
+    height: 200px;
+    width: 260px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="9"] {
+    background-image: url('images/9.jpeg'); 
+    position: absolute;
+    height: 240px;
+    width: 330px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="10"] {
+    background-image: url('images/10.jpeg'); 
+    position: absolute;
+    height: 218px;
+    width: 248px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="11"] {
+    background-image: url('images/11.jpeg'); 
+    position: absolute;
+    height: 172px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="12"] {
+    background-image: url('images/12.jpeg'); 
+    position: absolute;
+    height: 170px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="13"] {
+    background-image: url('images/13.jpeg'); 
+    position: absolute;
+    height: 218px;
+    width: 180px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="14"] {
+    background-image: url('images/14.jpeg'); 
+    position: absolute;
+    height: 218px;
+    width: 230px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+coverImg[img="15"] {
+    background-image: url('images/15.jpeg'); 
+    position: absolute;
+    height: 218px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+song_info {
+    display: grid;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    text-align: justify;
+    width: 80%;
+    background-color: rgb(240, 240, 240);
+    padding-left: 650px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+name{
+    display: block;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Georgia, serif;
+    text-align: center;
+    height: 60px;
+    width: 300px;
+    color: lightgray;
+    background-color: #B0C4DE;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    border-style: inset;
+    color: slategrey;
+    opacity: 0.5;
+    transition: transform .1s;
+}
+
+name:hover {
+    opacity: 1.0;
+    transform: scale(1.1);
+}
+genre, singer {
+    font-weight: bold;
+    background-color: rgb(240, 240, 240);
+    width: 300px;
+}
+
+producer{
+    display: list-item;
+    list-style: square;
+    background-color: rgb(240, 240, 240);
+    border-top: double;
+    border-width: thick;
+    width: 300px;
+} 
+writer, release, duration {
+    display: list-item;
+    list-style: square;
+    background-color: rgb(240, 240, 240);
+    width: 300px;
+
+}

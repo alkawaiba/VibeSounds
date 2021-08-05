@@ -1,0 +1,25 @@
+<!ELEMENT Music_Store (Store|Music_List)*>
+<!ELEMENT Store (logo|Store_Name|address|phone|email|website)*>
+<!ELEMENT  logo (#PCDATA)>
+<!ELEMENT  Store_Name (#PCDATA)>
+<!ELEMENT  address (#PCDATA)>
+<!ELEMENT  phone (#PCDATA)>
+<!ELEMENT  email (#PCDATA)>
+<!ELEMENT  website (#PCDATA)>
+<!ELEMENT  Music_List (song)+>
+<!ELEMENT  song (coverImg|song_info)+>
+	<!ATTLIST song
+		id CDATA #REQUIRED>
+<!ELEMENT coverImg (#PCDATA)>
+	<!ATTLIST coverImg 
+		img CDATA #REQUIRED>
+<!ELEMENT  song_info (name|genre|singer|producer|writer|release|duration)*>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT singer (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT release (#PCDATA)>
+	<!ATTLIST release 
+		releaseYear CDATA #REQUIRED>
+<!ELEMENT duration (#PCDATA)>
